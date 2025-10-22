@@ -6,7 +6,7 @@ def throw_rock (m, v0, theta):
     R = v0**2 * np.sin(2*theta) / g # in m
     hm = v0**2 * np.sin(theta)**2 / (2*g) #in m
     vh = v0*np.cos(theta) #in m/s
-    Kh = 0.5 * m * vh * hm**2 # in J
+    Kh = 0.5 * m * vh**2 * hm # in J
     
     print ("For a rock with %5.3f kg mass thrown with %5.3f m/s at an angle of %6.2f degrees:\n"\
            "Time of fight is %10.1e s\nThe range in x-direction is %10.1e m\n"\
