@@ -10,8 +10,8 @@ def throw_rock (m, v0, theta):
     
     print ("For a rock with %5.3f kg mass thrown with %5.3f m/s at an angle of %6.2f degrees:\n"\
            "Time of fight is %10.1e s\nThe range in x-direction is %10.1e m\n"\
-            "Maximum hight is %10.1e m\nThe speed at maximum height is %10.1e m/s\n"\
-            "Kinetic energy at the maximum height is %8.2e J" % (m,v0, theta*180/np.pi, tf, R, hm, vh, Kh))
+           "Maximum hight is %10.1e m\nThe speed at maximum height is %10.1e m/s\n"\
+           "Kinetic energy at the maximum height is %8.2e J\n" % (m,v0, theta*180/np.pi, tf, R, hm, vh, Kh))
         
     return tf, R, hm, vh, Kh
           
